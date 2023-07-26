@@ -60,7 +60,7 @@ variable "environment_map" {
 variable "environment_machine_type" {
   type = map(string)
   default = {
-    "DEV" = "f1-micro",
+    "DEV" = "e2-micro",
     "QA" = "e2-micro",
     "STAGE" = "e2-micro",
     "PROD" = "e2-medium"
